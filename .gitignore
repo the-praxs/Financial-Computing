@@ -17,3 +17,6 @@
 *.pdb
 *.ilk
 *.suo
+*.db-shm
+*.db-wal
+*.opendb
