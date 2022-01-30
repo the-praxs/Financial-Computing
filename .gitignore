@@ -1,2 +1,4 @@
 *.exe
 *.o
+Topic*/x64/**
+Topic*/.vs/**
