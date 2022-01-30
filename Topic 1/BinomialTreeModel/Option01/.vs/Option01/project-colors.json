@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3d851f42-f2c7-40ea-b3c2-7ae180d9845c": {
+      "ProjectGuid": "3d851f42-f2c7-40ea-b3c2-7ae180d9845c",
+      "DisplayName": "Option01",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
