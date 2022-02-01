@@ -19,7 +19,7 @@ namespace fre {
 
 		for (int n = N - 1; n >= 0; n--) {
 			for (int i = 0; i <= n; i++) {
-				Price[i] = (q * Price[i + 1] + (1 - q) * Price[i]) / (1 + R);
+				Price[i] = (q * Price[i + 1] + (1 - q) * Price[i]) / R;
 			}
 		}
 
