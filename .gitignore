@@ -1,11 +1,13 @@
 # Ignore all files
 *
 
-# Except .gitignore, .cpp, .h, .md files
+# Except .gitignore, .cpp, .h, .md, .png, .jpeg files
 !.gitignore
 !*.cpp
 !*.h
 !*.md
+!*.jpeg
+!*.png
 
 # Except LICENSE file
 !LICENSE
