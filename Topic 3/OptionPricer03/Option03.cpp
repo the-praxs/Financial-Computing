@@ -17,6 +17,7 @@ namespace fre {
 		double q = Model.RiskNeutProb();
 		double* Price = new double[N + 1];
 		memset(Price, 0, N + 1);
+
 		for (int i = 0; i <= N; i++) {
 			Price[i] = Payoff(Model.CalculateAssetPrice(N, i), K);
 		}
