@@ -1,22 +1,14 @@
-*.exe
-*.o
-*.json
-*.ipch
-*.sln
-*.vcxproj
-*.filters
-*.lastbuildstate
-*.user
-*.obj
-*.tlog
-*.db
-*.recipe
-*.log
-*.txt
-*.idb
-*.pdb
-*.ilk
-*.suo
-*.db-shm
-*.db-wal
-*.opendb
+# Ignore all files
+*
+
+# Except .gitignore, .cpp, .h, .md files
+!.gitignore
+!*.cpp
+!*.h
+!*.md
+
+# Except LICENSE file
+!LICENSE
+
+# Even if they are in subdirectories
+!*/
