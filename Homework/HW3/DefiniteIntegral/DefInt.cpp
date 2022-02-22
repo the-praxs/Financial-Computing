@@ -1,6 +1,7 @@
 #include "DefInt.h"
 
 namespace fre {
+	// Trapezoidal Approximation
 	double DefInt::ByTrapzoid(int N) {
 		double h, sum;
 
@@ -15,6 +16,7 @@ namespace fre {
 		return ((b - a) * sum) / (2 * N);
 	}
 
+	// Simpson Approximation
 	double DefInt::BySimpson(int N) {
 		return ((b - a) * (f(a) + 4 * f((a + b) / 2) + f(b))) / 6;
 	}

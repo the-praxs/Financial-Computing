@@ -6,6 +6,7 @@
 using namespace std;
 using namespace fre;
 
+// Our choice of function f
 double f(double x) {
 	return pow(x, 3) - pow(x, 2) + 1;
 }
