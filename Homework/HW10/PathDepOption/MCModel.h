@@ -7,6 +7,7 @@ using namespace std;
 
 namespace fre {
 	typedef vector<double> SamplePath;
+
 	class MCModel {
 	private:
 		double S0, r, sigma;

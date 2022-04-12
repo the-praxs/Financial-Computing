@@ -24,13 +24,8 @@ int main() {
 }
 
 /*
-Asian Call Price = 1.41927
-Pricing Error = 0.0120013
-delta = 0.523105
-gamma = 0.119361
-
-Asian Call Price = 1.41796
-Pricing Error = 0.0120795
-delta = 0.52306
-gamma = 0.117813
+Asian Call Price = 1.42159
+Pricing Error = 0.0120668
+delta = 0.523822
+gamma = 0.117521
 */
